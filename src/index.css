@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: black;
+    color: white;
+}
+
+.card{
+    background-color: rgb(31, 30, 30);
+    width: 200px;
+    height: 400px;
+}
+
+.header{
+    background-color: #25262d;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
